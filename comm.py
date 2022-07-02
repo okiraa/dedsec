@@ -98,14 +98,14 @@ kira's justice
 """
     return [bn1, bn2, bn3, bn4]
 
-def color(cor, text):
-    colors = {
-    "blue": "\033[1;34m",
-    "red": "\033[31m",
-    "green": "\033[1;32m",
-    "yellow": "\033[1;33m",
-    "fundo": "\033[0;0m"}
-    return colors[cor]+f"{text}"+colors["fundo"]
+
+
+
+
+
+
+
+
 
 def usage():
     texto = "\033[31m"+"[-] Erro na Passagem de Argumentos!"+"\033[1;32m"+"\n[+] Use: "+"\033[1;32m"+"python3 dedsec.py"+"\033[1;34m"+" [host] "+"\033[1;33m"+"[porta]"+"\033[0;0m"
